@@ -1,5 +1,6 @@
-# Gpuserver-architecture
-State-of-the-art Server architectures wirh GPUs
+# Multi-GPU Server-architecture
+
+State-of-the-art Server architectures with 8 ore more GPUs within one dual-socket server.
 
 Among the 8 GPU Serer solutions in the market, the DGX-1 machine was tuned up specifically for deep learning. One of the major advantages compared to PCI based solution is the huge bandwidth of the NVLink .
 
