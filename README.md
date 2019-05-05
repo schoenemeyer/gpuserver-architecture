@@ -14,13 +14,14 @@ The NVLink allows for a much faster transfer over .5 time faster than the tradit
 
 <img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/dgx-1-p100.JPG" width="652">
 
-With 6 ports it is possible to build an 8-GPU hybrid cube-mesh network. The corners of the mesh-connected faces of the cube are connected to the PCIe tree network, which also connects to the CPUs and NICs.
+With 6 ports it is possible to build an 8-GPU hybrid cube-mesh network. The corners of the mesh-connected faces of the cube are connected to the PCIe tree network, which also connects to the CPUs and NICs. 
+The topology can be thought of as a cube with GPUs at its corners and with
+all twelve edges connected through NVLink, and with two of the six faces having their diagonals
+connected as well. It can also be thought of as two interwoven rings of single NVLink connections.
+
 
 <img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/dgx-1-v100.JPG" width="562">
 
-The hybrid cube-mesh topology (Figure 4) can be thought of as a cube with GPUs at its corners and with
-all twelve edges connected through NVLink, and with two of the six faces having their diagonals
-connected as well. It can also be thought of as two interwoven rings of single NVLink connections.
 
 The cube-mesh topology provides the highest bandwidth of any 8-GPU NVLink topology for multiple
 collective communications primitives, including broadcast, gather, and all-gather, which are important to
