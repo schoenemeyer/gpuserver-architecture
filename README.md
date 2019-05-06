@@ -42,3 +42,4 @@ A detailed design can be found in this article.
 https://fuse.wikichip.org/news/1224/a-look-at-nvidias-nvlink-interconnect-and-the-nvswitch/
 
 
+<img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/dgx2-nvswitch-two-baseboards.png" width="562">
