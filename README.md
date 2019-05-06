@@ -1,5 +1,7 @@
 # Multi-GPU Server-architecture
 
+Prior to Nvidia’s current solution, in order to form more powerful compute nodes, multiple GPUs were connected over a PCIe switch and directly to the CPU. One can find servers with up to 8 GPUs packed into one server.
+
 Among the 8 GPU Server solutions in the market, the DGX-1 machine was tuned up specifically for deep learning. One of the major advantages compared to PCI based solutions is the ultrafast NVLink interconnect of the Tesla GPUs whihc outperforms the traditional PCIgen3 connect.
 
 In the table below, the NVLink specs are compared for the two generations. The DGX-1 with Tesla P100 is using NVLink Version 1 ports. That means each P100 accelerator has 4 NVLink ports with a birectional bandwidth f 40GB/s, which ends up in total 160GB/s for each P100 bidirectonal.
