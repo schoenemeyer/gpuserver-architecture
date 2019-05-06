@@ -36,10 +36,12 @@ Keep in mind why NVIDIA did this strong investment into the NVLink Interconnect 
 <img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/nvidia-dgx-1-v100-nvlink-gpu-xeon-config.png" width="562">
 
 The next step in this development was the NVIDIA NVSwitch which is the first on-node switch architecture to support 16 fully-connected GPUs in a single server node and drive simultaneous communication between all eight GPU pairs 300 GB/s each. The DGX-2 has two baseboards fully linked together using the NVSwitches on each of the baseboards forming a system of 16 fully-connected GPUs. These 16 GPUs can be used as a single large-scale accelerator with 0.5 Terabytes of unified memory space and 2 petaFLOPS of deep learning compute power and can outperform two DGX-1 systems connected via EDR infinband significantly. 
+The DGX-2 yields 81,920 CUDA cores and an additional 12,240 Tensor cores chip for AI workloads and requires 10kW of power.
 
 A detailed design can be found in this article. 
 
 https://fuse.wikichip.org/news/1224/a-look-at-nvidias-nvlink-interconnect-and-the-nvswitch/
+
 
 
 <img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/dgx2-nvswitch-two-baseboards.png" width="562">
