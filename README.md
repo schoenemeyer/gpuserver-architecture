@@ -10,7 +10,7 @@ aggregate of up to 300 GB/s bidirectional bandwidth.
 
 <img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/nvlink-table.JPG" width="652">
 
-The NVLink allows for a much faster transfer over .5 time faster than the traditional solution through PCIGen3 x 16.
+The NVLink allows for a much faster transfer over 2.5 time faster than the traditional solution through PCIGen3 x 16.
 
 <img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/dgx-1-p100.JPG" width="652">
 
