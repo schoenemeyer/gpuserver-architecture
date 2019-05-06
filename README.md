@@ -31,6 +31,8 @@ memory when transferring across the two clusters.
 
 <img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/meshcube-dgx.JPG" width="362">
 
-<img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/nvidia-dgx-1-v100-nvlink-gpu-xeon-config.png" width="362">
+Keep in mind why NVIDIA did this strong investment into the NVLink Interconnect due to balancing GPU interconnect with GPU memory speed. The Tesla GPUs come with an outstanding memory bandwidth (up to 900GB/s) from GPU to HMB2 memory. 
+
+<img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/nvidia-dgx-1-v100-nvlink-gpu-xeon-config.png" width="562">
 
 The next step in this development was the NVIDIA NVSwitch which is the first on-node switch architecture to support 16 fully-connected GPUs in a single server node and drive simultaneous communication between all eight GPU pairs 300 GB/s each. These 16 GPUs can be used as a single large-scale accelerator with 0.5 Terabytes of unified memory space and 2 petaFLOPS of deep learning compute power and can outperform two DGX-1 systems connected via EDR infinband significantly. 
