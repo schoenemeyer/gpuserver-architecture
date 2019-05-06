@@ -43,3 +43,8 @@ https://fuse.wikichip.org/news/1224/a-look-at-nvidias-nvlink-interconnect-and-th
 
 
 <img src="https://github.com/schoenemeyer/gpuserver-architecture/blob/master/figures/dgx2-nvswitch-two-baseboards.png" width="562">
+
+If things comes together in a nicely integrated way, you can build a very powerful supercomputer which is called Summit awith a mixed-precision capability in excess of 3 EF.
+
+https://www.olcf.ornl.gov/for-users/system-user-guides/summit/summit-user-guide/
+
