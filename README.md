@@ -11,7 +11,7 @@ https://devblogs.nvidia.com/nvidia-ampere-architecture-in-depth/
 https://devblogs.nvidia.com/introducing-hgx-a100-most-powerful-accelerated-server-platform-for-ai-hpc/     
 
 
-NVIDIA Whitepaper on A100
+NVIDIA Whitepaper on A100     
 https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/nvidia-ampere-architecture-whitepaper.pdf      
 
 
