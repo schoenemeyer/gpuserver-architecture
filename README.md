@@ -6,8 +6,10 @@ https://www.heise.de/news/Nvidia-Ampere-A100-Volle-Grafikfunktion-und-CPU-unabha
 https://www.it-markt.ch/news/2020-05-20/nvidias-neue-profi-gpu-ist-ein-ki-monster    
 https://www.golem.de/news/a100-nvidias-7-nm-monster-gpu-misst-826-mm-2005-148480.html     
 
-NVIDIA Devblog
-https://devblogs.nvidia.com/nvidia-ampere-architecture-in-depth/    
+NVIDIA Devblog   
+https://devblogs.nvidia.com/nvidia-ampere-architecture-in-depth/        
+https://devblogs.nvidia.com/introducing-hgx-a100-most-powerful-accelerated-server-platform-for-ai-hpc/     
+
 
 NVIDIA Whitepaper on A100
 https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/nvidia-ampere-architecture-whitepaper.pdf      
