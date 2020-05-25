@@ -1,5 +1,6 @@
 A100 Architecture
-what the press announced on Ampere in May 2020:
+what the press announced on Ampere in May 2020:     
+
 German Language:
 https://www.heise.de/news/Nvidia-Ampere-A100-Volle-Grafikfunktion-und-CPU-unabhaengig-4726187.html      
 https://www.it-markt.ch/news/2020-05-20/nvidias-neue-profi-gpu-ist-ein-ki-monster    
